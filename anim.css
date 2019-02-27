@@ -1,0 +1,17 @@
+p{
+
+
+	border-color: #330033; 
+	border-style: solid; 
+	border-width: 2px;
+	color: #800080;
+	background-color: #ff99ff;
+}
+
+#diferente{
+	border-color: #00004d; 
+	border-style: solid; 
+	border-width: 2px;
+	color: #0000ff;
+	background-color:#9999ff;
+}
