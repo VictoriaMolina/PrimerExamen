@@ -7,9 +7,9 @@
 		<title>Softpro | Creative Software Company</title>
 	</head>
 		<body>
-			<div id=nav class="animated"></div>
+			<div id="nav" class="animated"></div>
 						<a href=indexCompany.html>
-							<img src="images/logoGenesis.png" height="70px"; width="70px;" class="animated swing">
+							<img src="images/logoGenesis.png" height="70px"; width="70px;">
 						</a>
 						<ul>
 							<a href="indexCompany.html"><li>Home</li></a>
@@ -17,9 +17,10 @@
 							<a href="#Services"><li>Services</li></a>
 							<a href="#Contact"><li>Contact</li></a>
 						</ul>
-						<h1>A software company <br>&#38; Design Agency</h1>
-						<p class="animated swing">We love the Web and the work we do.We work closely with our clients to deliver </br>  the best possible solutions for their needs.</p>
-						<img src="images/background.jpeg" height="auto" width="100%"; >
+						<div id="foto">
+						<h1 id="fon"; class="animated fadeInUp">A software company <br>&#38; Design Agency</h1>
+						<p id="fondo"; class="animated fadeInUp">We love the Web and the work we do.We work closely with our clients to deliver </br>  the best possible solutions for their needs.</p>
+						</div>
 						<div id="Portafolio">
 							<h1>Portafolio</h1>
        						 <h4>Mockop</h4>
@@ -34,7 +35,7 @@
 					        <img src="images/website.jpeg" width="250" " height="250" >
 					        <img src="images/ios.jpeg " width="250" height="250" >
 					        <img src="images/android.jpeg " width="250" height="250" >
-					        >
+					        
 						</div>
 						<div id="Services" >
 						    <h1> Our Services </h1> 
@@ -53,11 +54,17 @@
 						</div>
 						<div id="Contact">
 							<h1>Drop us a note</h1>
-							<p>Nombre</p>
-							<p>Email Address</p>
-							<p>Subject</p>
-							<p>Your message</p>
-							<p>Send</p>
+							<form action="/action_page.php" id="usrform">
+							Name<br>
+							<input type="text" name="Name"><br>
+							Email Address<br>
+							<input type="text" name="Email Address"><br>
+							Subject<br>
+							<input type="text" name="Subject"><br>
+							Your Message<br>
+							<textarea name="Your message"></textarea><br><br>
+							<input type="Submit" value="Send">
+							</form>
 						</div>
 						<p>Copyright 2018 &copy; Design & Developed by <a href= "https://github.com/VictoriaMolina">Victoria Molina Pineda</a></p>
 

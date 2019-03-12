@@ -1,12 +1,29 @@
 /*Style indexCompany*/
 #nav{
   
-
 	border-color: DodgerBlue; 
 	border-style: solid;
 	border-width: 2px;
 }
+#foto{
+	background-image: url("images/background.jpeg");
+	background-repeat:no-repeat; 
+	background-size: auto;
+	background-position: center;
+	width: 1270px;
+	height: 800px;
+	display: block;
+}
+#fon{
+	text-align: center;
+	color: white;
+}
 
+#fondo{
+	font-family: Roboto, sans-serif;
+	color: white;
+	text-align: center;
+}
 h1{
 	font-family: Roboto, sans-serif;
 }
