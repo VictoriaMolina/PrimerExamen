@@ -4,6 +4,7 @@
 	border-color: DodgerBlue; 
 	border-style: solid;
 	border-width: 2px;
+
 }
 li:hover{
 	color: black;
@@ -17,6 +18,7 @@ li{
 ul.navigation{
 	list-style-type: none;
 	float: right;
+	font-family: 'Montserrat', sans-serif;
 }
 #text{
 	position: absolute;
@@ -38,31 +40,75 @@ ul.navigation{
 	text-align: center;
 	color: white;
 	font-size: 50px;
+	font-family: 'Montserrat', sans-serif;
 }
 
 #fondo{
 	font-family: Roboto, sans-serif;
 	color: white;
 	text-align: center;
+	font-family: 'Montserrat', sans-serif;
 }
 h1{
-	font-family: Roboto, sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 
 #Portafolio{
 	background-color:RGB(240, 240, 240); 
-	border: 2px solid red;
+	font-family: 'Nixie One', cursive;
 }
 
 #Services{
 	background-color:RGB(240, 240, 240); 
-	border: 2px solid blue
+	font-family: 'Nixie One', cursive;
 }
 
 #Contact{
 	background-color:RGB(240, 240, 240); 
-	border: 2px solid violet
+	font-family: 'Nixie One', cursive;
 }
 html{
 	scroll-behavior: smooth;
+}
+.container {
+  position: relative;
+  width: 250px;
+  height: 250px;
+  margin: 33px;
+  display: inline-block;
+  
+}
+.overlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #b4b4b4;
+}
+.container:hover .overlay{
+	opacity: 3;
+}
+.text{
+  color: white;
+  font-size: 20px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.fas{
+	position: relative;
+	width: 10px;
+  height: 10px;
+  margin: 15px;
+  display: inline-block;
+  vertical-align: middle;
 }
